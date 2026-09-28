@@ -80,7 +80,8 @@ plt.title(
     f"Figura de Difração\n"
     f"λ = {lambda_nm:.1f} nm | L = {L:.2f} m"
 )
-
+plt.xlim(-150, 150)
+plt.ylim(-20, 20)
 plt.tight_layout()
-
+plt.show()
 plt.show()
